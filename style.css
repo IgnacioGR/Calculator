@@ -1,0 +1,62 @@
+#container{
+    position: relative;
+    background-color: aqua;
+    height: 500px;
+    width: 400px;
+    border-radius: 12px;
+    margin: 50vh 50vw 50vh 50vw;
+    transform: translate(-50%,-50%);
+}
+
+#display{
+    position: absolute;
+    background-color: azure;
+    height: 75px;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    top: 20px;
+    border-radius: 12px;
+}
+
+#numberContainer{
+    border-radius: 12px;
+    position: absolute;
+    background-color: orange;
+    height: 300px;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    top: 175px;
+}
+
+#clearDelete{
+    position: absolute;
+    background-color: greenyellow;
+    height: 50px;
+    width: 90%;
+    left: 50%;
+    margin-left: -45%;
+    top: 110px;
+    border-radius: 12px;
+}
+
+.number{
+    height: 45px;
+    width: 55px;
+    list-style-type: none;
+}
+
+ul{
+    position: absolute;
+    width: 80%;
+    left: 50%;
+    margin-left: -45%;
+    background-color: lightcoral;
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 6px;
+}
